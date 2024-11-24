@@ -1,0 +1,15 @@
+{
+  "name": "wiki-image-proxy",
+  "version": "2.0.0",
+  "description": "Use a proxy to store MediaWiki images in Tencent Cloud COS to reduce costs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AurLemon",
+  "license": "ISC",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.14.6",
+    "express": "^4.21.1"
+  }
+}
